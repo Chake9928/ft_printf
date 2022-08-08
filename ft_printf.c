@@ -6,7 +6,7 @@
 /*   By: okamototakeshi <okamototakeshi@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 12:41:20 by okamototake       #+#    #+#             */
-/*   Updated: 2022/08/09 00:39:45 by okamototake      ###   ########.fr       */
+/*   Updated: 2022/08/09 01:04:41 by okamototake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static size_t	fmt_chk(const char fmt, va_list *ap)
 	if (fmt == 's')
 		return (ft_put_s(va_arg(*ap, char *)));
 	if (fmt == 'p')
-		return (ft_put_p(va_arg(*ap, unsigned long)));
+		return (ft_put_s("0x") + ft_put_p(va_arg(*ap, unsigned long)));
 	if (fmt == 'd' || fmt == 'i')
 		return (ft_put_d_i(va_arg(*ap, int)));
 	if (fmt == 'u')
