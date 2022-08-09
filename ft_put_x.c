@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_put_x_X.c                                       :+:      :+:    :+:   */
+/*   ft_put_x.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: okamototakeshi <okamototakeshi@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 21:06:25 by okamototake       #+#    #+#             */
-/*   Updated: 2022/08/09 00:23:59 by okamototake      ###   ########.fr       */
+/*   Updated: 2022/08/09 16:36:10 by okamototake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-size_t	ft_put_x(unsigned int num, int sign)
+size_t	ft_put_x(unsigned int num, bool sign)
 {
 	size_t			len;
 
