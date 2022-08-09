@@ -6,7 +6,7 @@
 /*   By: okamototakeshi <okamototakeshi@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 21:05:42 by okamototake       #+#    #+#             */
-/*   Updated: 2022/08/09 00:43:22 by okamototake      ###   ########.fr       */
+/*   Updated: 2022/08/09 16:46:15 by okamototake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,7 @@
 
 size_t	ft_put_c(const char c)
 {
-	size_t	len;
-
-	len = 0;
-	len += write(1, &c, 1);
-	return (len);
+	return (write(1, &c, 1));
 }
 
 size_t	ft_put_s(const char *str)
