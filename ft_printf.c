@@ -6,7 +6,7 @@
 /*   By: okamototakeshi <okamototakeshi@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 12:41:20 by okamototake       #+#    #+#             */
-/*   Updated: 2022/08/11 08:53:56 by okamototake      ###   ########.fr       */
+/*   Updated: 2022/08/11 10:04:09 by okamototake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,3 @@ int	ft_printf(const char *fmt, ...)
 	va_end(ap);
 	return ((int)len);
 }
-
-("hello%d\n", 42)
