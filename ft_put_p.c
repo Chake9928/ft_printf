@@ -6,13 +6,13 @@
 /*   By: okamototakeshi <okamototakeshi@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 21:06:04 by okamototake       #+#    #+#             */
-/*   Updated: 2022/08/09 01:03:04 by okamototake      ###   ########.fr       */
+/*   Updated: 2022/08/11 09:39:45 by okamototake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-size_t	ft_put_p(unsigned long num)
+size_t	ft_put_p(uintptr_t num)
 {
 	size_t	len;
 

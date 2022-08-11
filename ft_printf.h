@@ -6,14 +6,14 @@
 /*   By: okamototakeshi <okamototakeshi@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 00:29:34 by okamototake       #+#    #+#             */
-/*   Updated: 2022/08/09 16:35:48 by okamototake      ###   ########.fr       */
+/*   Updated: 2022/08/11 08:49:03 by okamototake      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 # define LOWERCASE 1
-# define UPPERCASE 2
+# define UPPERCASE 0
 # include <stdarg.h>
 # include <unistd.h>
 # include <limits.h>
