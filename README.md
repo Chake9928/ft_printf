@@ -1,2 +1,3 @@
 # ft_printf
-42cursus
+なんちゃってprintfを作りました。
+フラグは使えません。
